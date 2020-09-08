@@ -93,7 +93,7 @@ public class Trabalho2 {
 					produto = JOptionPane.showInputDialog("Digite o produto que deseja comprar");
 					preco = Double.parseDouble(JOptionPane.showInputDialog("Digite o preço do produto"));
 					tem_desconto = Double.parseDouble(JOptionPane.showInputDialog(
-							"Esta compra possui desconto de 25% no valor do produto digite 1 para aceitar! \n1- aceitar \nOBS: Quem n�o gosta de aceitar um desconto? Ainda por cima em Whisky. Bora !!!\n Boas compras !!"));
+							"Esta compra possui desconto de 25% no valor do produto digite 1 para aceitar! \n1- aceitar \nOBS: Quem não gosta de aceitar um desconto? Ainda por cima em Whisky. Bora !!!\n Boas compras !!"));
 
 					if (tem_desconto == 1) {
 						JOptionPane.showMessageDialog(null, "Ok. Vamos gerar o seu desconto");
